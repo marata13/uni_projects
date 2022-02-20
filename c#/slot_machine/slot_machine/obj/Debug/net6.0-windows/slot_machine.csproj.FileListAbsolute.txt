@@ -15,6 +15,6 @@ C:\Users\Ioake\Documents\GitHub\uni_projects\c#\slot_machine\slot_machine\obj\De
 C:\Users\Ioake\Documents\GitHub\uni_projects\c#\slot_machine\slot_machine\obj\Debug\net6.0-windows\slot_machine.genruntimeconfig.cache
 C:\Users\Ioake\Documents\GitHub\uni_projects\c#\slot_machine\slot_machine\obj\Debug\net6.0-windows\ref\slot_machine.dll
 C:\Users\Ioake\Documents\GitHub\uni_projects\c#\slot_machine\slot_machine\obj\Debug\net6.0-windows\slot_machine.Properties.Resources.resources
-C:\Users\Ioake\Documents\GitHub\uni_projects\c#\slot_machine\slot_machine\obj\Debug\net6.0-windows\slot_machine.slotWith3.resources
-C:\Users\Ioake\Documents\GitHub\uni_projects\c#\slot_machine\slot_machine\obj\Debug\net6.0-windows\slot_machine.slotWith4.resources
 C:\Users\Ioake\Documents\GitHub\uni_projects\c#\slot_machine\slot_machine\obj\Debug\net6.0-windows\slot_machine.settingsForm.resources
+C:\Users\Ioake\Documents\GitHub\uni_projects\c#\slot_machine\slot_machine\obj\Debug\net6.0-windows\slot_machine.mainForm.resources
+C:\Users\Ioake\Documents\GitHub\uni_projects\c#\slot_machine\slot_machine\obj\Debug\net6.0-windows\slot_machine.loginForm.resources

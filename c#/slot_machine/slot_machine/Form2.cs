@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace slot_machine
 {
-    public partial class slotWith4 : Form
+    public partial class loginForm : Form
     {
-        public slotWith4()
+        public loginForm()
         {
             InitializeComponent();
         }
