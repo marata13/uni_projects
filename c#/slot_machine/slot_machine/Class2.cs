@@ -25,6 +25,10 @@ namespace slot_machine
 
         internal void CreateSlots()
         {
+            for (int i = 0; i < slotsList.Count; i++)
+            {
+                mainForm.ActiveForm.Controls.Remove(slotsList[i]);
+            }
             slotsList.Clear();
             for (int i = 1; i <= SlotsNumber; i++)
             {
@@ -40,21 +44,54 @@ namespace slot_machine
 
         public User User { get; }
 
-        internal void Spin()
+        internal void Spin(int betAmmount)
         {
+            User.updateCurrentMoneyGiven(betAmmount);
             AssignSlots();
             if (CheckWin()){
-                MessageBox.Show("Win");
+                int ammountWon = PayTable(betAmmount);
+                User.updateCurrentWinnings(ammountWon);
+                MessageBox.Show(String.Format("Congratulations {0} you won ${1}!!!! ",
+                                                            User.username,ammountWon));
             }
+        }
+
+        private int PayTable(int betAmmount)
+        {
+            int currentFruit = (int)Convert.ToInt64(slotsList[0].Tag);
+            switch (currentFruit)
+            {
+                case 0:
+                    return betAmmount;
+                case 1:
+                    return 2*betAmmount;
+                case 2:
+                    return 4*betAmmount;
+                case 3:
+                    return 6*betAmmount;
+                case 4:
+                    return 8*betAmmount;
+                case 5:
+                    return 10*betAmmount;
+                case 6:
+                    return 12*betAmmount;
+                case 7:
+                    return 15*betAmmount;
+                case 8:
+                    return 18 * betAmmount;
+                case 9:
+                    return 25*betAmmount;
+            }
+            return 0;
         }
 
         private bool CheckWin()
         {
             for (int i = 0; i < slotsList.Count-1; i++)
             {
-                if(slotsList[i].Tag == slotsList[i+1].Tag)
+                if(Convert.ToInt64(slotsList[i].Tag) == Convert.ToInt64(slotsList[i+1].Tag))
                 {
-                    continue;
+                    //do nothing
                 }
                 else
                 {

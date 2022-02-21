@@ -7,7 +7,8 @@ namespace slot_machine
     public partial class mainForm : Form
     {
         SlotMachine slotMachine;
-        Stopwatch stopwatch = new Stopwatch();
+        Stopwatch stopwatch = new();
+        int betAmmount;
         public mainForm(SlotMachine slotMachine)
         {
             InitializeComponent();
@@ -17,11 +18,12 @@ namespace slot_machine
            // slot1.Image = Resources.plum;
         }
 
-        private void spinButton_Click(object sender, EventArgs e)
+        private void SpinButton_Click(object sender, EventArgs e)
         {
-            int betAmmount;
             if (int.TryParse(bet.Text, out betAmmount))
             {
+                bet.Enabled = false;
+                spinButton.Enabled = false;
                 timerText1.Visible = true;
                 timer.Start();
                 stopwatch.Start();
@@ -32,7 +34,7 @@ namespace slot_machine
             }
         }
 
-        private void timer_Tick(object sender, EventArgs e)
+        private void Timer_Tick(object sender, EventArgs e)
         {
             if (stopwatch.ElapsedMilliseconds > 3000)
             {
@@ -42,16 +44,20 @@ namespace slot_machine
                 timerText1.Visible = false;
                 timerText1.Text = "3";
                 spinButton.Enabled = true;
-                slotMachine.Spin();
+                bet.Enabled = true;
+                slotMachine.Spin(betAmmount);
             }
             else
             {
-                spinButton.Enabled = false;
                 timerText1.Text = Convert.ToString((3000 - stopwatch.ElapsedMilliseconds)/1000);
             }
         }
 
-        private void mainForm_Activated(object sender, EventArgs e)
+        private void MainForm_Activated(object sender, EventArgs e)
+        {
+        }
+
+        private void mainForm_Shown(object sender, EventArgs e)
         {
             slotMachine.CreateSlots();
             slotMachine.AssignSlots();

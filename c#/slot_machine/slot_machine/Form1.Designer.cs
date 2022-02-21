@@ -62,7 +62,7 @@
             this.spinButton.Size = new System.Drawing.Size(124, 43);
             this.spinButton.TabIndex = 16;
             this.spinButton.UseVisualStyleBackColor = true;
-            this.spinButton.Click += new System.EventHandler(this.spinButton_Click);
+            this.spinButton.Click += new System.EventHandler(this.SpinButton_Click);
             // 
             // bet
             // 
@@ -104,7 +104,7 @@
             // timer
             // 
             this.timer.Interval = 900;
-            this.timer.Tick += new System.EventHandler(this.timer_Tick);
+            this.timer.Tick += new System.EventHandler(this.Timer_Tick);
             // 
             // mainForm
             // 
@@ -123,7 +123,8 @@
             this.Name = "mainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Slot Machine";
-            this.Activated += new System.EventHandler(this.mainForm_Activated);
+            this.Activated += new System.EventHandler(this.MainForm_Activated);
+            this.Shown += new System.EventHandler(this.mainForm_Shown);
             this.ResumeLayout(false);
             this.PerformLayout();
 
