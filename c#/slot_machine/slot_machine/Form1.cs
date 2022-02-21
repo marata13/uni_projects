@@ -13,9 +13,6 @@ namespace slot_machine
         {
             InitializeComponent();
             this.slotMachine = slotMachine;
-            //slot3.Image = Resources.cherry;
-            //slot2.Image = Resources.q;
-           // slot1.Image = Resources.plum;
         }
 
         private void SpinButton_Click(object sender, EventArgs e)
@@ -53,14 +50,38 @@ namespace slot_machine
             }
         }
 
-        private void MainForm_Activated(object sender, EventArgs e)
-        {
-        }
-
         private void mainForm_Shown(object sender, EventArgs e)
         {
             slotMachine.CreateSlots();
             slotMachine.AssignSlots();
+        }
+
+        private void settingsButton_Click(object sender, EventArgs e)
+        {
+            settingsForm settings = new settingsForm(slotMachine.User);
+            settings.Show();
+            Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            slotMachine.User.updateMoneyGiven();
+            slotMachine.User.updateWinnings();
+            Application.Exit();
+        }
+
+        private void scoreButton_Click(object sender, EventArgs e)
+        {
+            int moneyWon = slotMachine.User.GetMoneyWon();
+            int moneyGiven = slotMachine.User.GetMoneyGiven();
+            int currentWinnnings = slotMachine.User.CurrentWinnings();
+            int currentMoneyGiven = slotMachine.User.CurrentMoneyGiven();
+            MessageBox.Show(String.Format
+                ("Money won in current session : {0}\r\n" +
+                "Money given in current session : {1}\r\n" +
+                "Money won (all time) : {2}\r\n" +
+                "Money given (all time) : {3}",
+                currentWinnnings, currentMoneyGiven, moneyWon, moneyGiven));
         }
     }
 }

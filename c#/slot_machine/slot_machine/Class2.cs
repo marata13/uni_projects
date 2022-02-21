@@ -9,7 +9,8 @@ namespace slot_machine
 {
     public class SlotMachine
     {
-
+        public int SlotsNumber { get; }
+        public int Fruits { get; }
         private readonly int ENDOFSCREEN = 862;
         List<PictureBox> slotsList = new();
         List<Image> slotImages =new() { Resources.cherry,Resources.jay,Resources.plum,Resources.q,
@@ -100,11 +101,6 @@ namespace slot_machine
             }
             return true;
         }
-
-        public int SlotsNumber { get; }
-        public int Fruits { get; }
-
-
         internal void AssignSlots()
         {
             Random rnd = new Random();

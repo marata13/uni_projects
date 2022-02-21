@@ -28,20 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.columnBox = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.fruitBox = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.logoutButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // comboBox1
+            // columnBox
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(94, 72);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(151, 28);
-            this.comboBox1.TabIndex = 0;
+            this.columnBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.columnBox.FormattingEnabled = true;
+            this.columnBox.Location = new System.Drawing.Point(94, 72);
+            this.columnBox.Name = "columnBox";
+            this.columnBox.Size = new System.Drawing.Size(151, 28);
+            this.columnBox.TabIndex = 0;
             // 
             // label1
             // 
@@ -61,13 +63,14 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Αριθμός φρούτων";
             // 
-            // comboBox2
+            // fruitBox
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(94, 148);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(151, 28);
-            this.comboBox2.TabIndex = 3;
+            this.fruitBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.fruitBox.FormattingEnabled = true;
+            this.fruitBox.Location = new System.Drawing.Point(94, 148);
+            this.fruitBox.Name = "fruitBox";
+            this.fruitBox.Size = new System.Drawing.Size(151, 28);
+            this.fruitBox.TabIndex = 3;
             // 
             // button1
             // 
@@ -77,17 +80,29 @@
             this.button1.TabIndex = 4;
             this.button1.Text = "ΟΚ";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // logoutButton
+            // 
+            this.logoutButton.Location = new System.Drawing.Point(227, 263);
+            this.logoutButton.Name = "logoutButton";
+            this.logoutButton.Size = new System.Drawing.Size(94, 29);
+            this.logoutButton.TabIndex = 5;
+            this.logoutButton.Text = "LOGOUT";
+            this.logoutButton.UseVisualStyleBackColor = true;
+            this.logoutButton.Click += new System.EventHandler(this.logoutButton_Click);
             // 
             // settingsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(369, 343);
+            this.Controls.Add(this.logoutButton);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.fruitBox);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.columnBox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "settingsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -99,10 +114,11 @@
 
         #endregion
 
-        private ComboBox comboBox1;
+        private ComboBox columnBox;
         private Label label1;
         private Label label2;
-        private ComboBox comboBox2;
+        private ComboBox fruitBox;
         private Button button1;
+        private Button logoutButton;
     }
 }

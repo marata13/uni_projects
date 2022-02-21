@@ -35,6 +35,7 @@
             this.scoreButton = new System.Windows.Forms.Button();
             this.settingsButton = new System.Windows.Forms.Button();
             this.timer = new System.Windows.Forms.Timer(this.components);
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // timerText1
@@ -87,6 +88,7 @@
             this.scoreButton.Size = new System.Drawing.Size(133, 32);
             this.scoreButton.TabIndex = 24;
             this.scoreButton.UseVisualStyleBackColor = true;
+            this.scoreButton.Click += new System.EventHandler(this.scoreButton_Click);
             // 
             // settingsButton
             // 
@@ -100,11 +102,28 @@
             this.settingsButton.Size = new System.Drawing.Size(63, 62);
             this.settingsButton.TabIndex = 25;
             this.settingsButton.UseVisualStyleBackColor = true;
+            this.settingsButton.Click += new System.EventHandler(this.settingsButton_Click);
             // 
             // timer
             // 
             this.timer.Interval = 900;
             this.timer.Tick += new System.EventHandler(this.Timer_Tick);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button1.Location = new System.Drawing.Point(879, 0);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(94, 29);
+            this.button1.TabIndex = 26;
+            this.button1.Text = "EXIT";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // mainForm
             // 
@@ -113,17 +132,17 @@
             this.BackgroundImage = global::slot_machine.Properties.Resources.slot31;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(973, 493);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.settingsButton);
             this.Controls.Add(this.scoreButton);
             this.Controls.Add(this.bet);
             this.Controls.Add(this.spinButton);
             this.Controls.Add(this.timerText1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.Name = "mainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Slot Machine";
-            this.Activated += new System.EventHandler(this.MainForm_Activated);
             this.Shown += new System.EventHandler(this.mainForm_Shown);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -137,5 +156,6 @@
         private Button scoreButton;
         private Button settingsButton;
         private System.Windows.Forms.Timer timer;
+        private Button button1;
     }
 }

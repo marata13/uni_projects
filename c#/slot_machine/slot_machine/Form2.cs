@@ -16,5 +16,20 @@ namespace slot_machine
         {
             InitializeComponent();
         }
+
+        private void playButton_Click(object sender, EventArgs e)
+        {
+            if (loginInput.Text.Length > 0)
+            {
+                loginInput.Enabled = false;
+                mainForm main = new mainForm(new SlotMachine(new User(loginInput.Text), 3, 4));
+                this.Hide();
+                main.Show();
+            }
+            else
+            {
+                MessageBox.Show("Please input a username");
+            }
+        }
     }
 }

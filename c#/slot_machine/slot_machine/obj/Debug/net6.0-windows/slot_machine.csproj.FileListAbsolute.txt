@@ -18,3 +18,5 @@ C:\Users\Ioake\Documents\GitHub\uni_projects\c#\slot_machine\slot_machine\obj\De
 C:\Users\Ioake\Documents\GitHub\uni_projects\c#\slot_machine\slot_machine\obj\Debug\net6.0-windows\slot_machine.settingsForm.resources
 C:\Users\Ioake\Documents\GitHub\uni_projects\c#\slot_machine\slot_machine\obj\Debug\net6.0-windows\slot_machine.mainForm.resources
 C:\Users\Ioake\Documents\GitHub\uni_projects\c#\slot_machine\slot_machine\obj\Debug\net6.0-windows\slot_machine.loginForm.resources
+C:\Users\Ioake\Documents\GitHub\uni_projects\c#\slot_machine\slot_machine\bin\Debug\net6.0-windows\Npgsql.dll
+C:\Users\Ioake\Documents\GitHub\uni_projects\c#\slot_machine\slot_machine\obj\Debug\net6.0-windows\slot_machine.csproj.CopyComplete

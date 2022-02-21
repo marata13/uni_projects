@@ -28,17 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.loginInput = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.playButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // textBox1
+            // loginInput
             // 
-            this.textBox1.Location = new System.Drawing.Point(92, 212);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(125, 27);
-            this.textBox1.TabIndex = 0;
+            this.loginInput.Location = new System.Drawing.Point(92, 212);
+            this.loginInput.Name = "loginInput";
+            this.loginInput.Size = new System.Drawing.Size(125, 27);
+            this.loginInput.TabIndex = 0;
             // 
             // label1
             // 
@@ -58,6 +58,7 @@
             this.playButton.TabIndex = 2;
             this.playButton.Text = "PLAY";
             this.playButton.UseVisualStyleBackColor = true;
+            this.playButton.Click += new System.EventHandler(this.playButton_Click);
             // 
             // loginForm
             // 
@@ -68,9 +69,9 @@
             this.ClientSize = new System.Drawing.Size(310, 471);
             this.Controls.Add(this.playButton);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.loginInput);
             this.DoubleBuffered = true;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.Name = "loginForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -82,7 +83,7 @@
 
         #endregion
 
-        private TextBox textBox1;
+        private TextBox loginInput;
         private Label label1;
         private Button playButton;
     }
