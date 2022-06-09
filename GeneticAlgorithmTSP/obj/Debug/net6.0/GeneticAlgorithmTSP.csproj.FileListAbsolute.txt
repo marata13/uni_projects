@@ -1,0 +1,15 @@
+C:\Users\Ioake\Desktop\πανεπιστήμιο\Τεχνητή νοημοσύνη\GeneticAlgorithmTSP\bin\Debug\net6.0\GeneticAlgorithmTSP.exe
+C:\Users\Ioake\Desktop\πανεπιστήμιο\Τεχνητή νοημοσύνη\GeneticAlgorithmTSP\bin\Debug\net6.0\GeneticAlgorithmTSP.deps.json
+C:\Users\Ioake\Desktop\πανεπιστήμιο\Τεχνητή νοημοσύνη\GeneticAlgorithmTSP\bin\Debug\net6.0\GeneticAlgorithmTSP.runtimeconfig.json
+C:\Users\Ioake\Desktop\πανεπιστήμιο\Τεχνητή νοημοσύνη\GeneticAlgorithmTSP\bin\Debug\net6.0\GeneticAlgorithmTSP.dll
+C:\Users\Ioake\Desktop\πανεπιστήμιο\Τεχνητή νοημοσύνη\GeneticAlgorithmTSP\bin\Debug\net6.0\GeneticAlgorithmTSP.pdb
+C:\Users\Ioake\Desktop\πανεπιστήμιο\Τεχνητή νοημοσύνη\GeneticAlgorithmTSP\obj\Debug\net6.0\GeneticAlgorithmTSP.csproj.AssemblyReference.cache
+C:\Users\Ioake\Desktop\πανεπιστήμιο\Τεχνητή νοημοσύνη\GeneticAlgorithmTSP\obj\Debug\net6.0\GeneticAlgorithmTSP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ioake\Desktop\πανεπιστήμιο\Τεχνητή νοημοσύνη\GeneticAlgorithmTSP\obj\Debug\net6.0\GeneticAlgorithmTSP.AssemblyInfoInputs.cache
+C:\Users\Ioake\Desktop\πανεπιστήμιο\Τεχνητή νοημοσύνη\GeneticAlgorithmTSP\obj\Debug\net6.0\GeneticAlgorithmTSP.AssemblyInfo.cs
+C:\Users\Ioake\Desktop\πανεπιστήμιο\Τεχνητή νοημοσύνη\GeneticAlgorithmTSP\obj\Debug\net6.0\GeneticAlgorithmTSP.csproj.CoreCompileInputs.cache
+C:\Users\Ioake\Desktop\πανεπιστήμιο\Τεχνητή νοημοσύνη\GeneticAlgorithmTSP\obj\Debug\net6.0\GeneticAlgorithmTSP.dll
+C:\Users\Ioake\Desktop\πανεπιστήμιο\Τεχνητή νοημοσύνη\GeneticAlgorithmTSP\obj\Debug\net6.0\refint\GeneticAlgorithmTSP.dll
+C:\Users\Ioake\Desktop\πανεπιστήμιο\Τεχνητή νοημοσύνη\GeneticAlgorithmTSP\obj\Debug\net6.0\GeneticAlgorithmTSP.pdb
+C:\Users\Ioake\Desktop\πανεπιστήμιο\Τεχνητή νοημοσύνη\GeneticAlgorithmTSP\obj\Debug\net6.0\GeneticAlgorithmTSP.genruntimeconfig.cache
+C:\Users\Ioake\Desktop\πανεπιστήμιο\Τεχνητή νοημοσύνη\GeneticAlgorithmTSP\obj\Debug\net6.0\ref\GeneticAlgorithmTSP.dll

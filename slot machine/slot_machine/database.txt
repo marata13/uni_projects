@@ -1,0 +1,16 @@
+CREATE DATABASE "Slot_machine"
+    WITH 
+    OWNER = postgres
+    ENCODING = 'UTF8'
+    CONNECTION LIMIT = -1;
+
+CREATE TABLE IF NOT EXISTS public.users
+(
+    username text,
+    money_given bigint NOT NULL,
+    money_won bigint NOT NULL,
+    PRIMARY KEY (username)
+);
+
+ALTER TABLE public.users
+    OWNER to postgres;
