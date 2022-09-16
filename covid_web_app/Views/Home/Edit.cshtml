@@ -1,0 +1,147 @@
+﻿@model covid_web_app.Models.PatientModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>PatientModel</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" asp-action="Edit">
+            <span  class="text-danger">Change the first name</span>
+            <div class="form-group">
+                <label class="control-label">@Model.FirstName</label>
+                <input type="text" class="form-control" name="str"/>
+                <input type="hidden" id="type" name="type" value="first_name" />
+                <input type="hidden" id="id" name="id" value="@Model.id" />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+            <form method="post" asp-action="Edit">
+            <span  class="text-danger">Change the last name</span>
+            <div class="form-group">
+                <label class="control-label">@Model.LastName</label>
+                <input type="text" class="form-control" name="str"/>
+                <input type="hidden" id="type" name="type" value="last_name" />
+                <input type="hidden" id="id" name="id" value="@Model.id" />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+            <form method="post" asp-action="Edit">
+            <span  class="text-danger">Change the email</span>
+            <div class="form-group">
+                <label class="control-label">@Model.Email</label>
+                <input type="text" class="form-control" name="str"/>
+                <input type="hidden" id="type" name="type" value="email" />
+                <input type="hidden" id="id" name="id" value="@Model.id" />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+           <form method="post" asp-action="Edit">
+            <span  class="text-danger">Change the phone number</span>
+            <div class="form-group">
+                <label class="control-label">@Model.Phone</label>
+                <input type="text" class="form-control" name="str"/>
+                <input type="hidden" id="type" name="type" value="phone" />
+                <input type="hidden" id="id" name="id" value="@Model.id" />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+           <form method="post" asp-action="Edit">
+            <span  class="text-danger">Change the gender</span>
+            <div class="form-group">
+                <label class="control-label">@Model.Gender</label>
+                <input type="text" class="form-control" name="str"/>
+                <input type="hidden" id="type" name="type" value="gender" />
+                <input type="hidden" id="id" name="id" value="@Model.id" />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+            <form method="post" asp-action="Edit">
+            <span  class="text-danger">Change the age</span>
+            <div class="form-group">
+                <label class="control-label">@Model.Age</label>
+                <input type="text" class="form-control" name="str"/>
+                <input type="hidden" id="type" name="type" value="age" />
+                <input type="hidden" id="id" name="id" value="@Model.id" />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+            <form method="post" asp-action="Edit">
+            <span  class="text-danger">Change the underlying diseases</span>
+            <div class="form-group">
+                <label class="control-label">@Model.UnderlyingDiseases</label>
+                <input type="text" class="form-control" name="str"/>
+                <input type="hidden" id="type" name="type" value="diseases" />
+                <input type="hidden" id="id" name="id" value="@Model.id" />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+            <form method="post" asp-action="Edit">
+            <span  class="text-danger">Change the address</span>
+            <div class="form-group">
+                <label class="control-label">@Model.Address</label>
+                <input type="text" class="form-control" name="str"/>
+                <input type="hidden" id="type" name="type" value="address" />
+                <input type="hidden" id="id" name="id" value="@Model.id" />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+            <form method="post" asp-action="Edit">
+            <span  class="text-danger">Change the vaccination date</span>
+            <div class="form-group">
+                <label class="control-label">@Model.VaccinationDate</label>
+                <input type="datetime-local" class="form-control" name="str"/>
+                <input type="hidden" id="type" name="type" value="date" />
+                <input type="hidden" id="id" name="id" value="@Model.id" />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+           
+    </div>
+</div>
+
+<div>
+    <a asp-action="ViewVaccinations">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
+@if (ViewBag.Success != null && ViewBag.Success)
+{
+    <script type="text/javascript" >
+        window.onload = function () {
+        alert('Success!');
+        }
+    </script>
+}
+@if (ViewBag.Success != null && !ViewBag.Success){
+    <script type="text/javascript" >
+        window.onload = function () {
+        alert('fail!');
+        }
+    </script>
+}

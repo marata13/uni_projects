@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ioake\\Documents\\GitHub\\uni_projects\\c#\\slot_machine\\slot_machine\\slot_machine.csproj": {}
+    "C:\\Users\\Ioake\\Documents\\GitHub\\uni_projects\\slot machine\\slot_machine\\slot_machine\\slot_machine.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ioake\\Documents\\GitHub\\uni_projects\\c#\\slot_machine\\slot_machine\\slot_machine.csproj": {
+    "C:\\Users\\Ioake\\Documents\\GitHub\\uni_projects\\slot machine\\slot_machine\\slot_machine\\slot_machine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ioake\\Documents\\GitHub\\uni_projects\\c#\\slot_machine\\slot_machine\\slot_machine.csproj",
+        "projectUniqueName": "C:\\Users\\Ioake\\Documents\\GitHub\\uni_projects\\slot machine\\slot_machine\\slot_machine\\slot_machine.csproj",
         "projectName": "slot_machine",
-        "projectPath": "C:\\Users\\Ioake\\Documents\\GitHub\\uni_projects\\c#\\slot_machine\\slot_machine\\slot_machine.csproj",
+        "projectPath": "C:\\Users\\Ioake\\Documents\\GitHub\\uni_projects\\slot machine\\slot_machine\\slot_machine\\slot_machine.csproj",
         "packagesPath": "C:\\Users\\Ioake\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ioake\\Documents\\GitHub\\uni_projects\\c#\\slot_machine\\slot_machine\\obj\\",
+        "outputPath": "C:\\Users\\Ioake\\Documents\\GitHub\\uni_projects\\slot machine\\slot_machine\\slot_machine\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ioake\\AppData\\Roaming\\NuGet\\NuGet.Config",

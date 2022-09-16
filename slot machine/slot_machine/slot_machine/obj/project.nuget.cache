@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O57OEZU1iYL/dFMlENv+MQXZNWaxeTYjTBoEYh2gX9h1j3YUoEI/s+d0ey1pjyVRHPoC9eh+JBGIuEJYxpcHZQ==",
+  "dgSpecHash": "oZ+Mf9qf3p2WrppAKu6xpCqVNpyvAgMXjcDUqulScm8hUgxa8gNx4ziDodMWAiEguLtc7hMNOQWIG4uhwjKWvw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ioake\\Documents\\GitHub\\uni_projects\\c#\\slot_machine\\slot_machine\\slot_machine.csproj",
+  "projectFilePath": "C:\\Users\\Ioake\\Documents\\GitHub\\uni_projects\\slot machine\\slot_machine\\slot_machine\\slot_machine.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ioake\\.nuget\\packages\\npgsql\\6.0.3\\npgsql.6.0.3.nupkg.sha512",
     "C:\\Users\\Ioake\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"

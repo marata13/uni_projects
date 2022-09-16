@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1><br /><br />
+    <h3 class="display-7">Navigate the app using the links above</h3>
+</div>
+
+
+
+@if (ViewBag.Success != null && ViewBag.Success)
+{
+    <script type="text/javascript" >
+        window.onload = function () {
+        alert('New vaccination deleted succesfully!');
+        }
+    </script>
+}
+@if (ViewBag.Success != null && !ViewBag.Success){
+    <script type="text/javascript" >
+        window.onload = function () {
+        alert('fail!');
+        }
+    </script>
+}

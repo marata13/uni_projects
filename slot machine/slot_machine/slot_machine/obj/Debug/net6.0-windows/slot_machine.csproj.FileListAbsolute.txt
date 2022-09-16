@@ -20,3 +20,25 @@ C:\Users\Ioake\Documents\GitHub\uni_projects\c#\slot_machine\slot_machine\obj\De
 C:\Users\Ioake\Documents\GitHub\uni_projects\c#\slot_machine\slot_machine\obj\Debug\net6.0-windows\slot_machine.loginForm.resources
 C:\Users\Ioake\Documents\GitHub\uni_projects\c#\slot_machine\slot_machine\bin\Debug\net6.0-windows\Npgsql.dll
 C:\Users\Ioake\Documents\GitHub\uni_projects\c#\slot_machine\slot_machine\obj\Debug\net6.0-windows\slot_machine.csproj.CopyComplete
+C:\Users\Ioake\Documents\GitHub\uni_projects\slot machine\slot_machine\slot_machine\bin\Debug\net6.0-windows\slot_machine.exe
+C:\Users\Ioake\Documents\GitHub\uni_projects\slot machine\slot_machine\slot_machine\bin\Debug\net6.0-windows\slot_machine.deps.json
+C:\Users\Ioake\Documents\GitHub\uni_projects\slot machine\slot_machine\slot_machine\bin\Debug\net6.0-windows\slot_machine.runtimeconfig.json
+C:\Users\Ioake\Documents\GitHub\uni_projects\slot machine\slot_machine\slot_machine\bin\Debug\net6.0-windows\slot_machine.dll
+C:\Users\Ioake\Documents\GitHub\uni_projects\slot machine\slot_machine\slot_machine\bin\Debug\net6.0-windows\slot_machine.pdb
+C:\Users\Ioake\Documents\GitHub\uni_projects\slot machine\slot_machine\slot_machine\bin\Debug\net6.0-windows\Npgsql.dll
+C:\Users\Ioake\Documents\GitHub\uni_projects\slot machine\slot_machine\slot_machine\obj\Debug\net6.0-windows\slot_machine.csproj.AssemblyReference.cache
+C:\Users\Ioake\Documents\GitHub\uni_projects\slot machine\slot_machine\slot_machine\obj\Debug\net6.0-windows\slot_machine.mainForm.resources
+C:\Users\Ioake\Documents\GitHub\uni_projects\slot machine\slot_machine\slot_machine\obj\Debug\net6.0-windows\slot_machine.loginForm.resources
+C:\Users\Ioake\Documents\GitHub\uni_projects\slot machine\slot_machine\slot_machine\obj\Debug\net6.0-windows\slot_machine.settingsForm.resources
+C:\Users\Ioake\Documents\GitHub\uni_projects\slot machine\slot_machine\slot_machine\obj\Debug\net6.0-windows\slot_machine.Properties.Resources.resources
+C:\Users\Ioake\Documents\GitHub\uni_projects\slot machine\slot_machine\slot_machine\obj\Debug\net6.0-windows\slot_machine.csproj.GenerateResource.cache
+C:\Users\Ioake\Documents\GitHub\uni_projects\slot machine\slot_machine\slot_machine\obj\Debug\net6.0-windows\slot_machine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ioake\Documents\GitHub\uni_projects\slot machine\slot_machine\slot_machine\obj\Debug\net6.0-windows\slot_machine.AssemblyInfoInputs.cache
+C:\Users\Ioake\Documents\GitHub\uni_projects\slot machine\slot_machine\slot_machine\obj\Debug\net6.0-windows\slot_machine.AssemblyInfo.cs
+C:\Users\Ioake\Documents\GitHub\uni_projects\slot machine\slot_machine\slot_machine\obj\Debug\net6.0-windows\slot_machine.csproj.CoreCompileInputs.cache
+C:\Users\Ioake\Documents\GitHub\uni_projects\slot machine\slot_machine\slot_machine\obj\Debug\net6.0-windows\slot_machine.csproj.CopyComplete
+C:\Users\Ioake\Documents\GitHub\uni_projects\slot machine\slot_machine\slot_machine\obj\Debug\net6.0-windows\slot_machine.dll
+C:\Users\Ioake\Documents\GitHub\uni_projects\slot machine\slot_machine\slot_machine\obj\Debug\net6.0-windows\refint\slot_machine.dll
+C:\Users\Ioake\Documents\GitHub\uni_projects\slot machine\slot_machine\slot_machine\obj\Debug\net6.0-windows\slot_machine.pdb
+C:\Users\Ioake\Documents\GitHub\uni_projects\slot machine\slot_machine\slot_machine\obj\Debug\net6.0-windows\slot_machine.genruntimeconfig.cache
+C:\Users\Ioake\Documents\GitHub\uni_projects\slot machine\slot_machine\slot_machine\obj\Debug\net6.0-windows\ref\slot_machine.dll

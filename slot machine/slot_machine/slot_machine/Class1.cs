@@ -13,7 +13,7 @@ namespace slot_machine
         private int currentWinnings = 0;
         private int currentMoneyGiven = 0;
         NpgsqlConnection conn = new NpgsqlConnection("Server=localhost;Port=5432;" +
-                 "Database=slot_machine;User Id=postgres;Password=;");
+                 "Database=slot_machine;User Id=postgres;Password=manolhs13;");
 
         public User(string username)
         {
