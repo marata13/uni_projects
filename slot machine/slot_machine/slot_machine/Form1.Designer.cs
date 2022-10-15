@@ -44,10 +44,9 @@
             this.timerText1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(157)))), ((int)(((byte)(118)))), ((int)(((byte)(39)))));
             this.timerText1.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.timerText1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.timerText1.Location = new System.Drawing.Point(1078, 481);
-            this.timerText1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.timerText1.Location = new System.Drawing.Point(847, 385);
             this.timerText1.Name = "timerText1";
-            this.timerText1.Size = new System.Drawing.Size(32, 38);
+            this.timerText1.Size = new System.Drawing.Size(26, 31);
             this.timerText1.TabIndex = 12;
             this.timerText1.Text = "3";
             this.timerText1.Visible = false;
@@ -59,10 +58,9 @@
             this.spinButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.spinButton.FlatAppearance.BorderSize = 0;
             this.spinButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.spinButton.Location = new System.Drawing.Point(926, 466);
-            this.spinButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.spinButton.Location = new System.Drawing.Point(675, 373);
             this.spinButton.Name = "spinButton";
-            this.spinButton.Size = new System.Drawing.Size(155, 54);
+            this.spinButton.Size = new System.Drawing.Size(124, 43);
             this.spinButton.TabIndex = 16;
             this.spinButton.UseVisualStyleBackColor = true;
             this.spinButton.Click += new System.EventHandler(this.SpinButton_Click);
@@ -74,11 +72,11 @@
             this.bet.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.bet.Font = new System.Drawing.Font("Rockwell Condensed", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.bet.ForeColor = System.Drawing.SystemColors.Window;
-            this.bet.Location = new System.Drawing.Point(696, 481);
-            this.bet.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bet.Location = new System.Drawing.Point(503, 384);
             this.bet.Name = "bet";
-            this.bet.Size = new System.Drawing.Size(208, 38);
+            this.bet.Size = new System.Drawing.Size(166, 32);
             this.bet.TabIndex = 23;
+            this.bet.TextChanged += new System.EventHandler(this.bet_TextChanged);
             // 
             // scoreButton
             // 
@@ -87,10 +85,9 @@
             this.scoreButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.scoreButton.FlatAppearance.BorderSize = 0;
             this.scoreButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.scoreButton.Location = new System.Drawing.Point(225, 480);
-            this.scoreButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.scoreButton.Location = new System.Drawing.Point(157, 384);
             this.scoreButton.Name = "scoreButton";
-            this.scoreButton.Size = new System.Drawing.Size(166, 40);
+            this.scoreButton.Size = new System.Drawing.Size(133, 32);
             this.scoreButton.TabIndex = 24;
             this.scoreButton.UseVisualStyleBackColor = true;
             this.scoreButton.Click += new System.EventHandler(this.scoreButton_Click);
@@ -102,10 +99,9 @@
             this.settingsButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.settingsButton.FlatAppearance.BorderSize = 0;
             this.settingsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.settingsButton.Location = new System.Drawing.Point(121, 459);
-            this.settingsButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.settingsButton.Location = new System.Drawing.Point(88, 363);
             this.settingsButton.Name = "settingsButton";
-            this.settingsButton.Size = new System.Drawing.Size(79, 78);
+            this.settingsButton.Size = new System.Drawing.Size(63, 62);
             this.settingsButton.TabIndex = 25;
             this.settingsButton.UseVisualStyleBackColor = true;
             this.settingsButton.Click += new System.EventHandler(this.settingsButton_Click);
@@ -123,10 +119,9 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(1099, 0);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Location = new System.Drawing.Point(794, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(118, 36);
+            this.button1.Size = new System.Drawing.Size(94, 29);
             this.button1.TabIndex = 26;
             this.button1.Text = "EXIT";
             this.button1.UseVisualStyleBackColor = false;
@@ -134,11 +129,11 @@
             // 
             // mainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::slot_machine.Properties.Resources.slot31;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1106, 616);
+            this.ClientSize = new System.Drawing.Size(885, 493);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.settingsButton);
             this.Controls.Add(this.scoreButton);
@@ -146,7 +141,6 @@
             this.Controls.Add(this.spinButton);
             this.Controls.Add(this.timerText1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "mainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

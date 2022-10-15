@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VwShYmpgYfKrGH/m+QLqZyGnY00EaBbBz0WTHuik2OFsos7TAR6lbDJ4RSD1ZYUELzCodivCOVbyFzDzYZYiRg==",
+  "dgSpecHash": "kTnbG5TWlJUsAvFWJgDWabOyMgL0JwIyaL0hApQfGtAj/fMygfZ5CK+Kkh5Wf20q9NdKfWaIgNLDrEb4Pg7lgQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ioake\\Desktop\\πανεπιστήμιο\\c#\\covid_web_app\\covid_web_app.csproj",
+  "projectFilePath": "C:\\Users\\Ioake\\Documents\\GitHub\\uni_projects\\covid_web_app\\covid_web_app.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ioake\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\Ioake\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

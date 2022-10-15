@@ -83,5 +83,10 @@ namespace slot_machine
                 "Money given (all time) : {3}",
                 currentWinnnings, currentMoneyGiven, moneyWon, moneyGiven));
         }
+
+        private void bet_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

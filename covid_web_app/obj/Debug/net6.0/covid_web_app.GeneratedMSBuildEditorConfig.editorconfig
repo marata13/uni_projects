@@ -8,57 +8,57 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = covid_web_app
 build_property.RootNamespace = covid_web_app
-build_property.ProjectDir = C:\Users\Ioake\Desktop\πανεπιστήμιο\c#\covid_web_app\
+build_property.ProjectDir = C:\Users\Ioake\Documents\GitHub\uni_projects\covid_web_app\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Ioake\Desktop\πανεπιστήμιο\c#\covid_web_app
+build_property.MSBuildProjectDirectory = C:\Users\Ioake\Documents\GitHub\uni_projects\covid_web_app
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Ioake/Desktop/πανεπιστήμιο/c\#/covid_web_app/Views/Home/DeletePage.cshtml]
+[C:/Users/Ioake/Documents/GitHub/uni_projects/covid_web_app/Views/Home/DeletePage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZWxldGVQYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ioake/Desktop/πανεπιστήμιο/c\#/covid_web_app/Views/Home/Edit.cshtml]
+[C:/Users/Ioake/Documents/GitHub/uni_projects/covid_web_app/Views/Home/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ioake/Desktop/πανεπιστήμιο/c\#/covid_web_app/Views/Home/Index.cshtml]
+[C:/Users/Ioake/Documents/GitHub/uni_projects/covid_web_app/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ioake/Desktop/πανεπιστήμιο/c\#/covid_web_app/Views/Home/Insert.cshtml]
+[C:/Users/Ioake/Documents/GitHub/uni_projects/covid_web_app/Views/Home/Insert.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbnNlcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ioake/Desktop/πανεπιστήμιο/c\#/covid_web_app/Views/Home/Search.cshtml]
+[C:/Users/Ioake/Documents/GitHub/uni_projects/covid_web_app/Views/Home/Search.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWFyY2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ioake/Desktop/πανεπιστήμιο/c\#/covid_web_app/Views/Home/SearchPage.cshtml]
+[C:/Users/Ioake/Documents/GitHub/uni_projects/covid_web_app/Views/Home/SearchPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWFyY2hQYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ioake/Desktop/πανεπιστήμιο/c\#/covid_web_app/Views/Home/ViewVaccinations.cshtml]
+[C:/Users/Ioake/Documents/GitHub/uni_projects/covid_web_app/Views/Home/ViewVaccinations.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWaWV3VmFjY2luYXRpb25zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ioake/Desktop/πανεπιστήμιο/c\#/covid_web_app/Views/Shared/Error.cshtml]
+[C:/Users/Ioake/Documents/GitHub/uni_projects/covid_web_app/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ioake/Desktop/πανεπιστήμιο/c\#/covid_web_app/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Ioake/Documents/GitHub/uni_projects/covid_web_app/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ioake/Desktop/πανεπιστήμιο/c\#/covid_web_app/Views/_ViewImports.cshtml]
+[C:/Users/Ioake/Documents/GitHub/uni_projects/covid_web_app/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ioake/Desktop/πανεπιστήμιο/c\#/covid_web_app/Views/_ViewStart.cshtml]
+[C:/Users/Ioake/Documents/GitHub/uni_projects/covid_web_app/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ioake/Desktop/πανεπιστήμιο/c\#/covid_web_app/Views/Shared/_Layout.cshtml]
+[C:/Users/Ioake/Documents/GitHub/uni_projects/covid_web_app/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ykdfz3g671

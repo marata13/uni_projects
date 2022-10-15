@@ -7,7 +7,7 @@ namespace covid_web_app.Database
         public static NpgsqlConnection GetConnection()
         {
             return new NpgsqlConnection("Server=localhost;Port=5432;" +
-                 "Database=covid-web-app-database;User Id=postgres;Password=manolhs13;");
+                 "Database=covid-web-app-database;User Id=postgres;Password='Enter your database password here';");
         }
 
         public static NpgsqlDataReader ExecuteQuery(string query, NpgsqlConnection con)
